@@ -8,46 +8,47 @@
 
 프로젝트를 관리할 수 있는 창으로 들어가자.
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/f4a87f3b-50b3-4d13-94d8-7360860f9fc9/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/f4a87f3b-50b3-4d13-94d8-7360860f9fc9/Untitled.png)
+![image](https://user-images.githubusercontent.com/61235451/117742142-09153280-b23f-11eb-9991-0d34cff21fe2.png)
+
 
 프로젝트를 삭제할 때는 관리 창으로가고 새 프로젝트를 생성할 때는 "새 프로젝트"를 선택하면 된다.
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/d1a5974a-2b26-4e93-a3c7-be1fd6197f98/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/d1a5974a-2b26-4e93-a3c7-be1fd6197f98/Untitled.png)
+![image](https://user-images.githubusercontent.com/61235451/117742175-221de380-b23f-11eb-8d91-014b7debe561.png)
 
 프로젝트를 다 사용하고 삭제하면 비용 청구가 되지 않는다.
 
 새프로젝트를 만들어보자. 프로젝트 이름은 고유하게 만드는 것이 좋다. <my id>-gke-<오늘날짜>로 생성하자. 위치는 "조직 없음"으로 그냥 놔두자.
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/2d64d1a8-5949-4f9e-9195-20280230371e/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/2d64d1a8-5949-4f9e-9195-20280230371e/Untitled.png)
+![image](https://user-images.githubusercontent.com/61235451/117742318-70cb7d80-b23f-11eb-93ff-a924c3474d00.png)
 
 프로젝트 선택 화면으로 넘어가면 우리가 생성한 프로젝트를 확인할 수 있다. 
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/ae7b545e-b529-47b3-a12b-65a32af58020/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/ae7b545e-b529-47b3-a12b-65a32af58020/Untitled.png)
+![image](https://user-images.githubusercontent.com/61235451/117742376-9eb0c200-b23f-11eb-8c3a-5338598fca81.png)
 
 ## 1.2 프로젝트에 가상 머신 할당하기
 
 컴퓨트 엔진 메뉴로 접근한다.
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/cfc742aa-0b77-43b4-bbf2-aa297b5e338f/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/cfc742aa-0b77-43b4-bbf2-aa297b5e338f/Untitled.png)
+![image](https://user-images.githubusercontent.com/61235451/117742409-abcdb100-b23f-11eb-804d-9a672f6a686a.png)
 
 API 서비스를 활용하도록 "사용" 버튼을 누르자.
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/dd3186c7-c1bf-4c6f-8b3a-780aba51e615/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/dd3186c7-c1bf-4c6f-8b3a-780aba51e615/Untitled.png)
+![image](https://user-images.githubusercontent.com/61235451/117742423-b7b97300-b23f-11eb-9f69-9ea793e3a8c8.png)
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/d8f5f8ce-f02e-4055-a423-c0e4733ea50b/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/d8f5f8ce-f02e-4055-a423-c0e4733ea50b/Untitled.png)
+![image](https://user-images.githubusercontent.com/61235451/117742433-bdaf5400-b23f-11eb-98df-b5e87a9871eb.png)
 
 인스턴스 만들 때 부팅 디스크를 다음과 같이 변경한다.
 
 - Ubutu: 20.04 LTS
 - 100GB 디스크
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/276bedde-8e64-44b3-b0bd-710473d50f47/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/276bedde-8e64-44b3-b0bd-710473d50f47/Untitled.png)
+![image](https://user-images.githubusercontent.com/61235451/117742458-d0c22400-b23f-11eb-8003-dd427e5e71e8.png)
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/3278c806-6a5a-4c4c-aaf9-bc1f959e28d9/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/3278c806-6a5a-4c4c-aaf9-bc1f959e28d9/Untitled.png)
+![image](https://user-images.githubusercontent.com/61235451/117742480-dae42280-b23f-11eb-921c-0007b786ba45.png)
 
 방화벽 룰을 다음과 체크한다. 
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/c89d7ac9-74ea-48dc-a06b-5acc1cc97558/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/c89d7ac9-74ea-48dc-a06b-5acc1cc97558/Untitled.png)
+![image](https://user-images.githubusercontent.com/61235451/117742490-df104000-b23f-11eb-8a1e-f6a8db47cf0d.png)
 
 디스크와 방화벽 설정을 잘 변경했다면 "만들기" 버튼을 클릭한다.
 
@@ -55,7 +56,7 @@ API 서비스를 활용하도록 "사용" 버튼을 누르자.
 
 가상머신이 잘 만들어졌다면 SSH로 접근할 수 있다. SSH 버튼을 눌러서 접근해보자. 검은색 창이 하나 열리면서 쉘이 확인된다.
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/1391236f-dda2-4b72-8261-166dea797a1f/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/1391236f-dda2-4b72-8261-166dea797a1f/Untitled.png)
+![image](https://user-images.githubusercontent.com/61235451/117742523-f0594c80-b23f-11eb-896f-c1f6e21ac155.png)
 
 # 2 도커
 
@@ -110,11 +111,11 @@ Server:
     docker search tomcat
     ```
 
-    ![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/bca7107e-a9ad-4b2e-821f-5d6051476086/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/bca7107e-a9ad-4b2e-821f-5d6051476086/Untitled.png)
+    ![image](https://user-images.githubusercontent.com/61235451/117742586-0ebf4800-b240-11eb-9296-8f4688f0b2ca.png)
 
 2. [hub.docker.com](http://hub.docker.com) 사용하기
 
-    ![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/5d3690db-263b-437f-bdc0-1ce872cb9a38/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/5d3690db-263b-437f-bdc0-1ce872cb9a38/Untitled.png)
+    ![image](https://user-images.githubusercontent.com/61235451/117742611-167eec80-b240-11eb-8793-c6b4b074d5d0.png)
 
 ## 2.3 도커 이미지 관리
 
@@ -327,11 +328,11 @@ CONTAINER ID   IMAGE               COMMAND                  CREATED          STA
 
 인스턴스의 외부 IP를 확인하고 접속해보자.
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/5fafc2cb-2b8a-41fc-8cda-625703d3df4c/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/5fafc2cb-2b8a-41fc-8cda-625703d3df4c/Untitled.png)
+![image](https://user-images.githubusercontent.com/61235451/117743066-09163200-b241-11eb-88c5-22fb0e1f8d8c.png)
 
 외부IP를 통해서 들어오면 tomcat이 오픈된것을 확인할 수 있으며 ManagerApp에서 admin//admin 인증정보를 테스트 할 수 있다.
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/d599890d-973b-4201-b724-04e66cdefded/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/d599890d-973b-4201-b724-04e66cdefded/Untitled.png)
+![image](https://user-images.githubusercontent.com/61235451/117743086-0fa4a980-b241-11eb-9d32-adebaa05b02d.png)
 
 ## 2.5 도커 컨테이너 중지와 삭제, 생성, 시작
 
@@ -472,7 +473,7 @@ docker cp tc1:/passwd tc2:/passwd
     curl 34.122.156.232
     ```
 
-    ![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/91173a93-8864-4350-aa56-d0ff85cd1bcd/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/91173a93-8864-4350-aa56-d0ff85cd1bcd/Untitled.png)
+    ![image](https://user-images.githubusercontent.com/61235451/117743147-2a771e00-b241-11eb-9a37-7560cac49836.png)
 
 5. 초기 패스워드 찾아서 설치화면으로 넘어가기
 
@@ -712,31 +713,31 @@ c50f36f14f40   registry   0.00%     11.1MiB / 3.843GiB   0.28%     339MB / 1.73M
 3fd8e3f045cf   jk         0.15%     567MiB / 3.843GiB    14.41%    5.41MB / 947kB   9.71MB / 8.54MB   39 
 ```
 
-# 4 쿠버네티스 클러스터 구성하기
+# 4. 쿠버네티스 클러스터 구성하기
 
 왼쪽 메뉴에서 쿠버네티스 엔진로 접근하면 클러스터 "만들기"를 클릭할 수 있다.
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/3711d569-acaf-4c52-b76d-be1925893389/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/3711d569-acaf-4c52-b76d-be1925893389/Untitled.png)
+![image](https://user-images.githubusercontent.com/61235451/117743269-6d38f600-b241-11eb-9579-d4957c51a648.png)
 
 다수의 노드를 구성해서 클러스터를 만드는게 원칙이지만...
 
 클라우드 제공 업체는 Serverless 방식을 사용해 노드 없이 클러스터 방식을 개발했다.
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/7e34d930-31f5-4176-b521-94c6cd3524de/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/7e34d930-31f5-4176-b521-94c6cd3524de/Untitled.png)
+![image](https://user-images.githubusercontent.com/61235451/117743281-732ed700-b241-11eb-9444-3223bbbb21a1.png)
 
 구성을 선택하고 "만들기"를 바로 선택한다.
 
 생성이 완료되면 오른쪽에 연결 버튼을 클릭하고
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/ddeb2eb7-4e1f-4393-b295-631c3b19dc94/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/ddeb2eb7-4e1f-4393-b295-631c3b19dc94/Untitled.png)
+![image](https://user-images.githubusercontent.com/61235451/117743343-95c0f000-b241-11eb-9944-731dba76baa5.png)
 
 클라우드 쉘에서 실행을 선택한다.
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/2adac614-c016-45fb-a066-cb0d3f4c4e06/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/2adac614-c016-45fb-a066-cb0d3f4c4e06/Untitled.png)
+![image](https://user-images.githubusercontent.com/61235451/117743351-9c4f6780-b241-11eb-9d9e-b2fa9930accb.png)
 
 그러면 클라우드 셸이 하단에 창이 생성되면서 명령어가 자동 입력된다. 마스터 노드에 접근할 수 있는 인증정보를 설정하는 커맨드다.
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/c3c655fa-5626-49fa-b49e-c53f7648e06d/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/c3c655fa-5626-49fa-b49e-c53f7648e06d/Untitled.png)
+![image](https://user-images.githubusercontent.com/61235451/117743373-acffdd80-b241-11eb-9330-f84e98264e49.png)
 
 마스터 노드에 질의를 시작해보자.
 
@@ -766,7 +767,7 @@ nx           LoadBalancer   10.8.1.179   35.193.233.98   80:30294/TCP   44s
 
 클러스터에 배포된 nginx로 접근해보자.
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/e6fa8070-f70e-43ec-8124-cca2485d907f/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/e6fa8070-f70e-43ec-8124-cca2485d907f/Untitled.png)
+![image](https://user-images.githubusercontent.com/61235451/117743393-bb4df980-b241-11eb-94f7-d6846682ac39.png)
 
 퇴실할 때 클라우드 정리하기 
 
